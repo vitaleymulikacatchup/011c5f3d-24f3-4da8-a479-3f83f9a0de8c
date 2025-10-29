@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -9,7 +9,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Shield, Target, TrendingUp, Users, Zap, Code, Star } from "lucide-react";
+import { Shield, Target, TrendingUp, Users, Zap, Code, Star, Linkedin, Twitter, Github, Globe } from "lucide-react";
 
 export default function Home() {
   return (
@@ -132,8 +132,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Sarah Johnson CEO portrait",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarah-johnson" },
-                { icon: "Twitter", url: "https://twitter.com/sarahj" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarah-johnson" },
+                { icon: Twitter, url: "https://twitter.com/sarahj" }
               ]
             },
             {
@@ -144,8 +144,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/3831164/pexels-photo-3831164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Michael Chen CTO portrait",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/michael-chen" },
-                { icon: "Github", url: "https://github.com/mchen" }
+                { icon: Linkedin, url: "https://linkedin.com/in/michael-chen" },
+                { icon: Github, url: "https://github.com/mchen" }
               ]
             },
             {
@@ -156,8 +156,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/28550000/pexels-photo-28550000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Emily Rodriguez designer portrait",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/emily-rodriguez" },
-                { icon: "Globe", url: "https://emilydesigns.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/emily-rodriguez" },
+                { icon: Globe, url: "https://emilydesigns.com" }
               ]
             }
           ]}
