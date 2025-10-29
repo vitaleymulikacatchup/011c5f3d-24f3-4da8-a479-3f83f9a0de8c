@@ -48,7 +48,7 @@ export default function Home() {
 
       <div id="about" data-section="about">
         <SplitAbout
-          title="Why Choose TechFlow"
+          title="Why TechFlow"
           description="We combine technical expertise with business acumen to deliver solutions that drive real results for your company."
           tag="Our Approach"
           tagIcon={Target}
@@ -72,7 +72,7 @@ export default function Home() {
           buttons={[
             { text: "Learn More", href: "contact" }
           ]}
-          imageSrc="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Tech team collaboration"
           imagePosition="left"
         />
