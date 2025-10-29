@@ -32,7 +32,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Transforming Ideas into Digital Reality"
+          title="Transforming Ideas"
           description="We build cutting-edge software solutions that scale with your business. From AI integration to cloud infrastructure, we turn your vision into powerful technology."
           tag="Innovation First"
           tagIcon={Zap}
@@ -40,7 +40,7 @@ export default function Home() {
             { text: "Start Your Project", href: "contact" },
             { text: "View Our Work", href: "feature" }
           ]}
-          imageSrc="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Modern tech startup workspace"
           imagePosition="right"
         />
